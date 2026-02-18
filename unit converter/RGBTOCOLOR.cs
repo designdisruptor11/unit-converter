@@ -26,9 +26,9 @@ namespace unit_converter
         /// </summary>
         protected override void RegisterInputParams(GH_Component.GH_InputParamManager pManager)
         {
-            pManager.AddIntegerParameter("R2", "R" ,"Red value (0-255)", GH_ParamAccess.item,255);
-            pManager.AddIntegerParameter("G2", "G", "Green value (0-255)", GH_ParamAccess.item,255);
-            pManager.AddIntegerParameter("B2", "B", "Blue value (0-255)", GH_ParamAccess.item,255); 
+            pManager.AddIntegerParameter("R6", "R" ,"Red value (0-255)", GH_ParamAccess.item,255);
+            pManager.AddIntegerParameter("G6", "G", "Green value (0-255)", GH_ParamAccess.item,255);
+            pManager.AddIntegerParameter("B6", "B", "Blue value (0-255)", GH_ParamAccess.item,255); 
         }
 
         /// <summary>
